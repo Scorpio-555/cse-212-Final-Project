@@ -72,7 +72,7 @@ Finally, player 1 plays Curse of Royal in an attempt to destroy player 2's Mysti
 
 Now that the situation has been explained, let's go over the following requirements. 
 
-* Create a card class that has two member variables: card_title and card_activation. 
+* Create a card class that has three member variables: card_title (str), card_activation (str) and destroy_previous (bool). The destroy_previous variable is set to true for cards that have the potential to destroy the card that proceeded it in the stack.
 
 * Create instances of the card class for each of the cards played in the Chain shown above. 
 
@@ -88,6 +88,7 @@ Set up your Card Class:
 class Card:
     card_title = None
     card_activation = None
+    destroy_previous = False
 ```
 
 Now create instances for each card.
@@ -108,6 +109,7 @@ trap_hole = Card()
 
 trap_hole.card_title = "Trap Hole"
 trap_hole.card_activation = "When your opponent Normal or Flip Summons a monster with 1000 or more ATK: Target that monster; destroy that target."
+trap_hole.destroy_previous = True
 ```
 
 Player 1 Mystical Space Typhoon:
@@ -117,6 +119,7 @@ mystical_space_typhoon1 = Card()
 
 mystical_space_typhoon1.card_title = "Mystical Space Typhoon"
 mystical_space_typhoon1.card_activation = "Target 1 Spell/Trap Card on the field; destroy that target."
+mystical_space_typhoon1.destroy_previous = True
 ```
 
 Player 2 Mystical Space Typhoon:
@@ -126,6 +129,7 @@ mystical_space_typhoon2 = Card()
 
 mystical_space_typhoon2.card_title = "Mystical Space Typhoon"
 mystical_space_typhoon2.card_activation = "Target 1 Spell/Trap Card on the field; destroy that target."
+mystical_space_typhoon2.destroy_previous = True
 ```
 
 Curse of Royal:
@@ -135,6 +139,7 @@ curse_of_royal = Card()
 
 curse_of_royal.card_title = "Curse of Royal"
 curse_of_royal.card_activation = "Negate the activation of a Spell or Trap Card that includes the effect of destroying 1 Spell or Trap Card and destroy it."
+curse_of_royal.destroy_previous = True
 ```
 
 Now it is time to add the cards to a stack:
@@ -162,9 +167,11 @@ Is the Giant Soldier of Stone successfully summoned? Or will Trap Hole gobble hi
 
 Do the following:
 
+* Create a while loop that runs while there are items in the stack
+
 * Pop items off of the stack to activate them. When activating a card, print its card_title and card_activation
 
-* If a card destroys another card, pop the destroyed card off of the stack and print only its card_title and that it was destroyed.
+* If an activated card destroys another card i.e. destroy_previous == True, pop the destroyed card off of the stack and print only its card_title and that it was destroyed.
 
 * After all cards have been activated or destroyed, check to see if the stack is empty. If so, print "Chain Complete!"
 
