@@ -124,7 +124,7 @@ Now using the new square circled in the image above, do the following.
 
 * Finally, if the number is not valid, inform the user why there was a conflict i.e., if the row, column and/or block already contains the number.
 
-Add link to solution here
+[View Solution](05Solution-Set.py)
 
 ***
 
