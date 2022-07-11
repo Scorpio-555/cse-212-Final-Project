@@ -6,11 +6,11 @@
 
 ### Stack
 
-[Begin Stack Tutorial](https://github.com/Scorpio-555/cse-212-Final-Project/blob/main/01Stack.md)
+[Begin Stack Tutorial](01Stack.md)
 
 ### Set
 
-[Begin Set Tutorial](https://github.com/Scorpio-555/cse-212-Final-Project/blob/main/02Set.md)
+[Begin Set Tutorial](02Set.md)
 
 ### BST
 
