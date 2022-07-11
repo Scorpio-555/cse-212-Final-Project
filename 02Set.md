@@ -128,4 +128,4 @@ Now using the new square circled in the image above, do the following.
 
 ## Link back to home page
 
-add link to home page here
+[Return Home](https://github.com/Scorpio-555/cse-212-Final-Project/blob/main/00Welcome.md).
