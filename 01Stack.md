@@ -175,10 +175,10 @@ Do the following:
 
 * After all cards have been activated or destroyed, check to see if the stack is empty. If so, print "Chain Complete!"
 
-add link to solution here
+[View Solution](04Solution-Stack.py)
 
 ***
 
 ## Link to Home Page
 
-[Return Home](https://github.com/Scorpio-555/cse-212-Final-Project/blob/main/00Welcome.md).
+[Return Home](00Welcome.md)
