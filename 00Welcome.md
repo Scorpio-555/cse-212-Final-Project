@@ -10,6 +10,8 @@
 
 ### Set
 
+[Begin Set Tutorial](https://github.com/Scorpio-555/cse-212-Final-Project/blob/main/02Set.md)
+
 ### BST
 
 ## About the Author
