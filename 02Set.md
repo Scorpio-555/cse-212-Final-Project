@@ -124,8 +124,10 @@ Now using the new square circled in the image above, do the following.
 
 * Finally, if the number is not valid, inform the user why there was a conflict i.e., if the row, column and/or block already contains the number.
 
+Add link to solution here
+
 ***
 
 ## Link back to home page
 
-[Return Home](https://github.com/Scorpio-555/cse-212-Final-Project/blob/main/00Welcome.md).
+[Return Home](00Welcome.md)
