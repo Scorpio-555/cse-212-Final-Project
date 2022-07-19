@@ -152,7 +152,7 @@ __Pop Quiz:__ Can you point out the base case for the insertion function? How ab
 
 ## Illustration and Operation Table
 
-![BST JPEG](BST-image.jpg)
+![BST JPEG](BST.jpg)
 
 Using the image above, where would the number 5 go? How about 9? __Answer__: 5 would become the right child to 4, and 9 would become the left child to 10.
 
