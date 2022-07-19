@@ -101,7 +101,7 @@ recursive_hello(5): #Original Call
 
 ### Warning!
 
-Notice how the recursive call has a parameter of "count - 1"? This ensures that the base case is eventually reached!!! If you do not have a base case, or you have one but it cannot be reached, your function will run forever calling itself over and over again. Using the metaphor of "Inception," this is like diving so far that you are eternallly stuck in Limbo. You will receive the following error:
+Notice how the recursive call has a parameter of ```count - 1```? This ensures that the base case is eventually reached!!! If you do not have a base case, or you have one but it cannot be reached, your function will run forever calling itself over and over again. Using the metaphor of "Inception," this is like diving so far that you are eternallly stuck in Limbo. You will receive the following error:
 
 ```
 RecursionError: maximum recursion depth exceeded while calling a Python object
@@ -270,7 +270,7 @@ def __iter__(self):
 The recursive function _traverse_forward:
 
 ```
-def _traverse_forward(self, node):
+def _traverse_forward(self, node):                      # Notice that the BASE CASE is when the node is None
     if node is not None:
         yield from self._traverse_forward(node.left)
         yield node.data
