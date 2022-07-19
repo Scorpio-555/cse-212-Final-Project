@@ -26,6 +26,8 @@ There is a link provided to view the solution to the Problem to Solve. Please on
 
 ### BST
 
+[Begin BST Tutorial](03BST.md)
+
 ## Contact
 
 Name: Jaden Myers
