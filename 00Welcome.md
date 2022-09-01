@@ -36,4 +36,4 @@ Class: CSE 212
 
 Section: 3
 
-Email: mye18006@byui.edu
+Email: identitymatrix@hotmail.com
