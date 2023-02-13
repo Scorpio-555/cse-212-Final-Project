@@ -218,7 +218,7 @@ print(f"Size: {roster.get_size()}") #Should be 9
 #                             /                \                                /           \
 #                    Doe, John                  Harley, Steve      Kennedy, Owen             Zimmer, Dan
 #                   /                                                           \
-#       Eli Anderson                                                             Levitt, Caleb
+#       Anderson, Eli                                                             Levitt, Caleb
 
 #Test if size adjusts correctly when deleting a leaf
 roster.delete("Dan Zimmer")
@@ -256,7 +256,7 @@ print("\n=========== PROBLEM 2 TESTS ===========")
 #                                              /                                \
 #                                 Harley, Steve                                  Smith, Brad
 #                               /
-#                   Eli Anderson
+#                   Anderson, Eli
 
 is_found = "Brad Smith" in roster
 print(f"Found Name: {is_found}") #Should be True
